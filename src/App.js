@@ -45,9 +45,6 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-const onepizzaData = pizzaData.map((pizzadata) => {
-  return pizzadata;
-});
 
 function App() {
   return (
