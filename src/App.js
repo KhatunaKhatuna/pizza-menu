@@ -1,4 +1,3 @@
-
 import "./index.css";
 
 const pizzaData = [
@@ -6,42 +5,42 @@ const pizzaData = [
     name: "Pizza Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
     price: 6,
-    photoName: "./pizza-menu/pizzas/focaccia.jpg",
+    photoName: "./pizzas/focaccia.jpg",
     soldOut: false,
   },
   {
     name: "Pizza Margherita",
     ingredients: "Tomato and mozarellaTomato and mozarella",
     price: 10,
-    photoName: "./pizza-menu/pizzas/margherita.jpg",
+    photoName: "./pizzas/margherita.jpg",
     soldOut: false,
   },
   {
     name: "Pizza Spinaci",
     ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
     price: 12,
-    photoName: "./pizza-menu/pizzas/spinaci.jpg",
+    photoName: "./pizzas/spinaci.jpg",
     soldOut: false,
   },
   {
     name: "Pizza Funghi",
     ingredients: "Tomato, mozarella, mushrooms, and onion",
     price: 12,
-    photoName: "./pizza-menu/pizzas/funghi.jpg",
+    photoName: "./pizzas/funghi.jpg",
     soldOut: false,
   },
   {
     name: "Pizza Salamino",
     ingredients: "Tomato, mozarella, and pepperoni",
     price: 15,
-    photoName: "./pizza-menu/pizzas/salamino.jpg",
+    photoName: "./pizzas/salamino.jpg",
     soldOut: true,
   },
   {
     name: "Pizza Prosciutto",
     ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
     price: 18,
-    photoName: "./pizza-menu/pizzas/prosciutto.jpg",
+    photoName: "./pizzas/prosciutto.jpg",
     soldOut: false,
   },
 ];
