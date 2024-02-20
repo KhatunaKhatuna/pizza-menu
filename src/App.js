@@ -1,4 +1,4 @@
-import "./App.css";
+
 import "./index.css";
 
 const pizzaData = [
@@ -102,9 +102,6 @@ function PizzaList() {
 }
 
 function Pizza({ pizzaObject }) {
-  //  if (pizzaObject.soldOut) return null; // early return
-  //return  <div style={{ fontSize: "22px" }}>Sold out</div>;
-
   return (
     <li className={`pizza ${pizzaObject.soldOut ? "sold-out" : ""}`}>
       <img src={pizzaObject.photoName} alt={pizzaObject.name} />
@@ -122,7 +119,6 @@ function Footer() {
   const openHour = 12;
   const closeHour = 22;
   const isOpen = hour >= openHour && hour < closeHour;
-  // console.log(isOpen);
 
   return (
     <footer className="footer">
